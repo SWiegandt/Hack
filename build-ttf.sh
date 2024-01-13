@@ -20,8 +20,8 @@ export SOURCE_DATE_EPOCH
 
 # default build tooling definitions
 TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
-FONTMAKE="pipenv run fontmake"
-PYTHON="pipenv run python"
+FONTMAKE="fontmake"
+PYTHON="python"
 INSTALLFLAG=0
 
 # test for number of arguments
