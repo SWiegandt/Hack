@@ -19,7 +19,7 @@ SOURCE_DATE_EPOCH=$(git show -s --format=%ct HEAD)
 export SOURCE_DATE_EPOCH
 
 # default build tooling definitions
-TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
+TTFAH="ttfautohint"
 FONTMAKE="fontmake"
 PYTHON="python"
 INSTALLFLAG=0
